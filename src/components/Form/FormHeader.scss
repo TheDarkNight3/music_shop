@@ -1,0 +1,21 @@
+@import "../../styles/partials/reset";
+@import "../../styles/partials/mixins";
+
+
+.form-header {
+    font-family: 'DM Sans', sans-serif;
+    text-align: center;
+    
+
+    &__heading {
+        @include font($font-color: #FFF, $font-size: 51.048, $font-weight: 700) ;
+        letter-spacing: 3px;
+        margin-bottom: 12px;
+    }
+    
+    &__feature {
+        @include font($font-color: #FFF, $font-size: 14, $font-weight: 700);
+        line-height: 20px; /* 142.857% */
+        letter-spacing: 0.2px;
+    }
+}

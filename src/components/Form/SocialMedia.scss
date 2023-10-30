@@ -1,0 +1,25 @@
+
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+    margin: 40px auto 20px;
+
+    &__icons {
+        width: 52px;
+        height: 52px;
+        background-color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 9.4px;
+
+        svg {
+            height: 24px;
+            text-align: center;
+            vertical-align: middle;
+        }
+    }
+}
